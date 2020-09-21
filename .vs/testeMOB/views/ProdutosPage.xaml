@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="testeMOB.ProdutosPage">
+    <ScrollView>
+
+        <StackLayout Padding="20" Spacing="20" BackgroundColor="Gray">
+
+            <Entry x:Name="NomeProd" Placeholder="Nome" PlaceholderColor="DarkGray" TextColor="Gray" BackgroundColor="LightGray"/>
+
+            <Entry x:Name="TipoProd" Placeholder="Tipo" PlaceholderColor="DarkGray" TextColor="Gray" BackgroundColor="LightGray"/>
+
+            <Entry x:Name="CodBProd" Placeholder="Codigo de Barras" PlaceholderColor="DarkGray" TextColor="Gray" BackgroundColor="LightGray"/>
+
+            <Entry x:Name="PrecoProd" Placeholder="Preço" PlaceholderColor="DarkGray" TextColor="Gray" BackgroundColor="LightGray"/>
+
+            <Button x:Name="Salvar" Text="Salvar Dados" Clicked="SalvarClicked"/>
+
+            <ListView x:Name="ListaProd" BackgroundColor="WhiteSmoke" />
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>

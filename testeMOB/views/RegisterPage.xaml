@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="testeMOB.RegisterPage"
+             Title="Registro">
+    <Grid>
+        <StackLayout BackgroundColor="#000000">
+            <StackLayout Padding="30" Spacing="2" VerticalOptions="CenterAndExpand" 
+                             HorizontalOptions="FillAndExpand">
+                <Label Text="Nome" TextColor="#81a2d4" FontSize="20" FontAttributes="Bold"/>
+                <Entry x:Name="Nome" Placeholder="Informe o seu nome" PlaceholderColor="#9fb3d1" 
+                            FontSize="20" TextColor="#81a2d4" />
+                <Label Text="Email" TextColor="#81a2d4" FontSize="20" FontAttributes="Bold"/>
+                <Entry x:Name="Email" Placeholder="Informe o seu email" PlaceholderColor="#9fb3d1" 
+                            FontSize="20" TextColor="#81a2d4" />
+                <Label Text="Nome do Usuário" TextColor="#81a2d4" FontSize="20" FontAttributes="Bold"/>
+                <Entry x:Name="NomeUsuario" Placeholder="Informe o seu nome de usuário" PlaceholderColor="#9fb3d1" 
+                            FontSize="20" TextColor="#81a2d4" />
+                <Label Text="Senha" TextColor="#81a2d4" FontSize="20" FontAttributes="Bold"/>
+                <Entry x:Name="Senha" Placeholder="Informe a senha" Keyboard="Default" IsPassword="True" FontSize="20" 
+                            PlaceholderColor="#9fb3d1" TextColor="#81a2d4" />
+            </StackLayout>
+            <StackLayout Padding="30" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand">
+                <Button x:Name="BtnRegistrar" Text="Registrar" Clicked="BtnRegistrar_Clicked" TextColor="#000000" BackgroundColor="#81a2d4" />
+                <Button x:Name="BtnReturn" Text="Voltar" Clicked="BtnReturn_Clicked" TextColor="#81a2d4" BackgroundColor="#000000" />
+            </StackLayout>
+        </StackLayout>
+        <!-- Definimos '{Binding IsBusy}' no code-behind -->
+        <ActivityIndicator x:Name="activityIndicator2" IsRunning="{Binding IsBusy}" 
+                    VerticalOptions="Center" HorizontalOptions="Center" Color="Blue" />
+    </Grid>
+</ContentPage>

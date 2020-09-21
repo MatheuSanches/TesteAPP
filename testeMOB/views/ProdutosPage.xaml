@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="testeMOB.ProdutosPage">
+    <ScrollView>
+
+        <StackLayout Padding="20" Spacing="20" BackgroundColor="#000000">
+
+            <Image Source="Beru_Chibi.png" HeightRequest="70" VerticalOptions="EndAndExpand"/>
+
+            <Entry x:Name="NomeProd" Placeholder="Nome" PlaceholderColor="#9fb3d1" 
+                            BackgroundColor="#000000" TextColor="#81a2d4"/>
+
+            <Entry x:Name="TipoProd" Placeholder="Tipo" PlaceholderColor="#9fb3d1" 
+                            BackgroundColor="#000000" TextColor="#81a2d4"/>
+
+            <Entry x:Name="CodBProd" Placeholder="Codigo de Barras" PlaceholderColor="#9fb3d1" 
+                            BackgroundColor="#000000" TextColor="#81a2d4"/>
+
+            <Entry x:Name="PrecoProd" Placeholder="Preço" PlaceholderColor="#9fb3d1" 
+                            BackgroundColor="#000000" TextColor="#81a2d4"/>
+
+            <Button x:Name="Salvar" Text="Salvar Dados" Clicked="SalvarClicked" TextColor="#000000" BackgroundColor="#81a2d4"/>
+
+            <ListView x:Name="ListaProd" BackgroundColor="#000000"/>
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="testeMOB.views.EditClientesPage"
+             Title="Cadastro de Clientes">
+
+    <ScrollView>
+
+        <StackLayout Padding="20" Spacing="20" BackgroundColor="Gray">
+
+            <Entry x:Name="NomeCliente" Placeholder="Nome" PlaceholderColor="DarkGray" TextColor="Gray" BackgroundColor="LightGray"/>
+
+            <Entry x:Name="EmailCliente" Placeholder="Email" PlaceholderColor="DarkGray" Keyboard="Email" TextColor="Gray" BackgroundColor="LightGray"/>
+
+            <Entry x:Name="UsuarioCliente" Placeholder="Usuario" PlaceholderColor="DarkGray" TextColor="Gray" BackgroundColor="LightGray"/>
+
+            <Entry x:Name="SenhaCliente" Placeholder="Senha" PlaceholderColor="DarkGray" TextColor="Gray" BackgroundColor="LightGray"/>
+
+            <Button x:Name="Editar" Text="Editar Dados" Clicked="EditarClicked"/>
+
+            <Button x:Name="Excluir" Text="Apagar Dados" Clicked="ApagarClicked"/>
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>
