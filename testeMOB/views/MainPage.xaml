@@ -8,11 +8,13 @@
              Title="Home">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="sair.png" Priority="1" Clicked="MenuItem_OnClicked"/>
+        <ToolbarItem IconImageSource="solo5.png" Priority="1" Clicked="MenuItem_OnClicked"/>
     </ContentPage.ToolbarItems>
     <StackLayout Padding="12" BackgroundColor="#000000">
-        <Image Source="mainpage.png" 
+        <Label/>
+        <Image Source="kaisel.jpg" 
                Aspect="AspectFit"/>
+        <Label/>
         <Label Text="Esse aplicativo é um aplicativo de teste para fins de estudo, criado por Matheus Marquesini, código fonte  postado no github" TextColor="#81a2d4"/>
         <Label HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
             <Label.FormattedText>

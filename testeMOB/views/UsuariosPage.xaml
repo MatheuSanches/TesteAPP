@@ -1,11 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="testeMOB.UsuariosPage">
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="sair.png" Priority="1" Clicked="MenuItem_OnClicked"/>
+    </ContentPage.ToolbarItems>-->
     <StackLayout BackgroundColor="#000000">
+        <Label/>
         <Image Source="solo4.png" HeightRequest="70" VerticalOptions="EndAndExpand"/>
         <AbsoluteLayout Margin="3,3,3,3">
             <ScrollView>
@@ -18,7 +22,7 @@
                                 <ViewCell>
                                     <StackLayout Margin="2,2,2,2">
                                         <Label Text="{Binding Usu}" FontAttributes="Bold" TextColor="#81a2d4" FontSize="16"/>
-                                        <!--<Label Text="{Binding Senha}" FontSize="12"/>-->
+                                        <Label Text="{Binding Senha}" FontSize="12" TextColor="#81a2d4"/>
                                         <Label Text="{Binding Nome}" FontSize="12" TextColor="#81a2d4"/>
                                         <Label Text="{Binding Email}" FontSize="12" TextColor="#81a2d4"/>
                                     </StackLayout>

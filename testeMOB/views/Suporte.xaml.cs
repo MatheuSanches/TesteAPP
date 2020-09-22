@@ -22,11 +22,20 @@ namespace testeMOB.views
         {
             try
             {
-                Chat.Open("+554432287571");
+                Chat.Open("+5544991097779");
             }
             catch (Exception ex)
             {
                 await DisplayAlert("Erro", ex.Message, "OK");
+            }
+        }
+
+        private async void MenuItem_OnClicked(object sender, EventArgs e)
+        {
+            var resposta = await DisplayAlert("Sair", "Tem certeza que deseja sair?", "Sim", "Não");
+            if (resposta)
+            {
+                Application.Current.MainPage = new LoginPage();
             }
         }
     }

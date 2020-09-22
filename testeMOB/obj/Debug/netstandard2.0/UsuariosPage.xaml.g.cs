@@ -14,7 +14,7 @@ namespace testeMOB {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("UsuariosPage.xaml")]
-    public partial class UsuariosPage : global::Xamarin.Forms.ContentView {
+    public partial class UsuariosPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ListView listUser;

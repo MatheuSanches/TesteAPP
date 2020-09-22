@@ -16,24 +16,8 @@
                         <Label
                             Grid.Column="1"
                             Grid.Row="1"
-                            Text="Welcome, User!!"
+                            Text="Solém Irmãos!!"
                             TextColor="#000000" FontSize="Large"/>
-                        <!--<ListView x:Name="listUser"
-                                  HasUnevenRows="True"
-                                  IsVisible="True">
-                            <ListView.ItemTemplate>
-                                <DataTemplate>
-                                    <ViewCell>
-                                            <StackLayout>
-                                                <Label Text="{Binding Usuario}"
-                                                TextColor="White" FontSize="Large"
-                                                Grid.Column="1"
-                                                Grid.Row="1"/>
-                                            </StackLayout>
-                                    </ViewCell>
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-                        </ListView>-->
                     </StackLayout>
                 </Grid>
                 <StackLayout Grid.Row="1" Spacing="15">

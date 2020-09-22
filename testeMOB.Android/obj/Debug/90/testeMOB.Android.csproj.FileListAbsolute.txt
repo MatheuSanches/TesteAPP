@@ -1172,3 +1172,5 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\res\drawab
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\res\drawable\solo3.png
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\res\drawable\solo4.png
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\res\drawable\solo5.png
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\res\drawable\solo6.jpg
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\res\drawable\kaisel.jpg

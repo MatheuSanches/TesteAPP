@@ -37,5 +37,14 @@ namespace testeMOB
             }
             //
         }
+        private async void MenuItem_OnClicked(object sender, EventArgs e)
+        {
+            var resposta = await DisplayAlert("Sair", "Tem certeza que deseja sair?", "Sim", "Não");
+            if (resposta)
+            {
+                Application.Current.MainPage = new LoginPage();
+            }
+        }
+
     }
 }

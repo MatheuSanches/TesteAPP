@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="Suporte"
              x:Class="testeMOB.views.Suporte">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="solo5.png" Priority="1" Clicked="MenuItem_OnClicked"/>
+    </ContentPage.ToolbarItems>
     <ScrollView>
         <StackLayout Padding="20" Spacing="20" BackgroundColor="#000000">
             <Image Source="solo2.png" HeightRequest="70" VerticalOptions="Start"/>
