@@ -14,7 +14,7 @@
         <StackLayout Padding="20" Spacing="20" BackgroundColor="#000000">
 
             <Image Source="Beru_Chibi.png" HeightRequest="70" VerticalOptions="EndAndExpand"/>
-
+            <Label Text="Aqui temos vários produtos que seriam facilmente devorados pelo Beru!!" TextColor="#81a2d4"/>
             <Entry x:Name="NomeProd" Placeholder="Nome" PlaceholderColor="#9fb3d1" 
                             BackgroundColor="#000000" TextColor="#81a2d4"/>
 

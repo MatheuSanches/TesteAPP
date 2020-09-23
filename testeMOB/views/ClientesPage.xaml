@@ -7,6 +7,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="solo5.png" Priority="1" Clicked="MenuItem_OnClicked"/>
     </ContentPage.ToolbarItems>
+
     <ScrollView>
 
         <StackLayout Padding="20" Spacing="20" BackgroundColor="#000000">
@@ -18,7 +19,7 @@
            HorizontalTextAlignment="Center"/>-->
 
             <Image Source="solo3.png" HeightRequest="70" VerticalOptions="EndAndExpand"/>
-
+            <Label Text="Nenhum cliente deve ficar desprotegido, o cavaleiro sanguinário Igris, está aqui para cuidar disso!!" TextColor="#81a2d4"/>
             <Entry x:Name="NomeCliente" Placeholder="Nome" PlaceholderColor="#9fb3d1" 
                             BackgroundColor="#000000" TextColor="#81a2d4"/>
 

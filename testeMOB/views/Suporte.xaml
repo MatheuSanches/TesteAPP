@@ -9,6 +9,7 @@
     <ScrollView>
         <StackLayout Padding="20" Spacing="20" BackgroundColor="#000000">
             <Image Source="solo2.png" HeightRequest="70" VerticalOptions="Start"/>
+            <Label Text="Use o nosso suporte forte e veloz que nem o Iron!!" TextColor="#81a2d4"/>
             <!--Colocar IsAnimationPlaying como true para o gif funcionare verificar se o gif está funcionando como imagem-->
             <!--<Image Source="cat.gif" IsAnimationPlaying="True" HeightRequest="70" VerticalOptions="Start"/>-->
             <Label Text="Mande uma mensagem relatando seu problema para nossa equipe,o suporte irá auxiliá-lo na hora!!" TextColor="#81a2d4" VerticalOptions="Start"/>

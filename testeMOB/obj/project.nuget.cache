@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "VldQvzSd4lQeEJf3k3EhXY6OL4WaCd+zjsCG8V44+G7bdXXKRsLDy/s6n67E/9GpZkqRD1D2AlAiSTw7nErKgg==",
+  "dgSpecHash": "wc+ePonk1Oq30S7ql8kM1NrJBrUsHv56nlfbHsIAxF25LlsiRpN/j6uDwpY9yBwiJ07WJNerIEhnJ97PTZ/3fg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Csystems\\source\\repos\\TesteMOB\\testeMOB\\testeMOB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Csystems\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Csystems\\.nuget\\packages\\rg.plugins.popup\\2.0.0.5\\rg.plugins.popup.2.0.0.5.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",

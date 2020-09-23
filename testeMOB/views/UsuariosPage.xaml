@@ -11,6 +11,7 @@
     <StackLayout BackgroundColor="#000000">
         <Label/>
         <Image Source="solo4.png" HeightRequest="70" VerticalOptions="EndAndExpand"/>
+        <Label Text="Usuários como Fang são mais fortes se segurarem um orbe da avareza!!" TextColor="#81a2d4"/>
         <AbsoluteLayout Margin="3,3,3,3">
             <ScrollView>
                 <FlexLayout IsVisible="True" JustifyContent="SpaceEvenly" Direction="Column" AlignItems="Start" >

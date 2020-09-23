@@ -13,7 +13,7 @@
     <StackLayout Padding="12" BackgroundColor="#000000">
         <Label/>
         <Image Source="kaisel.jpg" 
-               Aspect="AspectFit"/>
+               />
         <Label/>
         <Label Text="Esse aplicativo é um aplicativo de teste para fins de estudo, criado por Matheus Marquesini, código fonte  postado no github" TextColor="#81a2d4"/>
         <Label HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
@@ -22,7 +22,7 @@
                     <Span Text="Github/MarkMSM: " TextColor="#81a2d4" TextDecorations="Underline">
                         <Span.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding ClickCommand}" 
-                                  CommandParameter="https://github.com/MatheuSanches/Xamarin-App" />
+                                  CommandParameter="https://github.com/MatheuSanches/TesteAPP" />
                         </Span.GestureRecognizers>
                     </Span>
                     <Span Text="Repositório com código disponível" TextColor="#81a2d4"/>

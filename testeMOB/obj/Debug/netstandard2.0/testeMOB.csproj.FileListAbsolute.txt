@@ -35,8 +35,8 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\views\
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\views\UsuariosPage.xaml.g.cs
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeMOB.AssemblyInfoInputs.cache
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeMOB.AssemblyInfo.cs
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeMOB.csproj.CoreCompileInputs.cache
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeMOB.dll
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\ref\testeMOB.dll
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeMOB.pdb
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeMOB.csproj.CoreCompileInputs.cache
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\XamlC.stamp

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3n4scTGdakJQ4vGfjeLqp0xPVMlR1CY44diu/BJ4YkkkwlyXwVCB+F4p/OGXf7vDBVqgobrkcqGMp5zU5eBMaw==",
+  "dgSpecHash": "fO3aietcdrZdC4dntDbCjugg2B1Bk7LKeE3SkXpea/rlv878fKc5PMQ241JpY4HwoP0hM/YPG4pr6rC/b0utTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Csystems\\source\\repos\\TesteMOB\\testeMOB.Android\\testeMOB.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Csystems\\.nuget\\packages\\rg.plugins.popup\\2.0.0.5\\rg.plugins.popup.2.0.0.5.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\sqlitepclraw.core\\2.0.3\\sqlitepclraw.core.2.0.3.nupkg.sha512",
