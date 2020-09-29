@@ -57,6 +57,13 @@ typeof(UsuariosPage)
                 TargetType =
 typeof(Suporte)
             });
+            menuList.Add(new MasterPageItem()
+            {
+                Title = "Galeria",
+                Icon = "solo5.png",
+                TargetType =
+typeof(GalleryPage)
+            });
             // Configurando o ItemSource fpara o ListView na MainPage.xaml
             paginaMestreList.ItemsSource = menuList;
             // navegação inicial

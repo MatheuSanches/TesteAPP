@@ -4,6 +4,9 @@ testemob.droid.MainActivity;crc64473fc4d64edfc7b7.MainActivity
 testeMOB.Droid.SplashActivity, testeMOB.Android;crc64473fc4d64edfc7b7.SplashActivity
 testeMOB.Droid.SplashActivity;crc64473fc4d64edfc7b7.SplashActivity
 testemob.droid.SplashActivity;crc64473fc4d64edfc7b7.SplashActivity
+Plugin.Media.MediaPickerActivity, Plugin.Media;crc646957603ea1820544.MediaPickerActivity
+Plugin.Media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity
+plugin.media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer, Rg.Plugins.Popup;crc643dd37f507f3d9710.PopupPageRenderer
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer;crc643dd37f507f3d9710.PopupPageRenderer
 rg.plugins.popup.droid.renderers.PopupPageRenderer;crc643dd37f507f3d9710.PopupPageRenderer

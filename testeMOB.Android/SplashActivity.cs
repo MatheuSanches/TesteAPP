@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace testeMOB.Droid
 {
-    [Activity(Label = "Solo Level", Icon = "@mipmap/icon", Theme = "@style/Theme.Splash",
+    [Activity(Label = "Solo Level", Icon = "@drawable/icon", Theme = "@style/Theme.Splash",
         MainLauncher = true,
         NoHistory = true)]
     public class SplashActivity : Activity

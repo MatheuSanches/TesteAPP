@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="testeMOB.ProdutosPage">
+             x:Class="testeMOB.ProdutosPage"
+             Title="Produtos">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="solo5.png" Priority="1" Clicked="MenuItem_OnClicked"/>
