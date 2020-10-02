@@ -1,11 +1,5 @@
 ﻿using Plugin.Media;
 using Plugin.Media.Abstractions;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,48 +8,39 @@ namespace testeMOB
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class GalleryPage : ContentPage
     {
-        private List<ImageGallery> ImageList;
         public GalleryPage()
         {
             InitializeComponent();
-            ImageList = new List<ImageGallery>();
-            ImageList.Add(new ImageGallery()
-            {
-                Image = "solo1.png"
-            });
         }
+        async void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            //! adicione o Plugin.Media;
+            await CrossMedia.Current.Initialize();
 
-        
-        
-        //async void Handle_Clicked(object sender, System.EventArgs e)
-        //{
-        //    //! added using Plugin.Media;
-        //    await CrossMedia.Current.Initialize();
+            // Se você quiser tirar uma foto use isso:
+            // if(!CrossMedia.Current.IsTakePhotoSupported || !CrossMedia.Current.IsCameraAvailable)
+            // Se você quiser selecionar da galeria use isso:
+            if (!CrossMedia.Current.IsPickPhotoSupported)
+            {
+                await DisplayAlert("Sem suporte", "Seu ceular não suporta esta funcionalidade", "Ok");
+                return;
+            }
 
-        //    // if you want to take a picture use this
-        //    // if(!CrossMedia.Current.IsTakePhotoSupported || !CrossMedia.Current.IsCameraAvailable)
-        //    // if you want to select from the gallery use this
-        //    if (!CrossMedia.Current.IsPickPhotoSupported)
-        //    {
-        //        await DisplayAlert("Sem suporte", "Seu ceular não suporta esta funcionalidade", "Ok");
-        //        return;
-        //    }
+            //! added using Plugin.Media.Abstractions;
+            // Se você quiser tirar uma foto use StoreCameraMediaOptions ao invés de PickMediaOptions
+            var mediaOptions = new PickMediaOptions()
+            {
+                PhotoSize = PhotoSize.Medium
+            };
+            // Se você quiser tirar uma foto use TakePhotoAsync ao invés de PickPhotoAsync
+            var selectedImageFile = await CrossMedia.Current.PickPhotoAsync(mediaOptions);
 
-        //    //! added using Plugin.Media.Abstractions;
-        //    // if you want to take a picture use StoreCameraMediaOptions instead of PickMediaOptions
-        //    var mediaOptions = new PickMediaOptions()
-        //    {
-        //        PhotoSize = PhotoSize.Medium
-        //    };
-        //    // if you want to take a picture use TakePhotoAsync instead of PickPhotoAsync
-        //    var selectedImageFile = await CrossMedia.Current.PickPhotoAsync(mediaOptions);
-
-        //    if (selectedImage == null)
-        //    {
-        //        await DisplayAlert("Error", "Não foi possível pegar a imagem, tente novamante", "Ok");
-        //        return;
-        //    }
-        //    selectedImage.Source = ImageSource.FromStream(() => selectedImageFile.GetStream());
-        //}
+            if (selectedImage == null)
+            {
+                await DisplayAlert("Error", "Não foi possível pegar a imagem, tente novamante", "Ok");
+                return;
+            }
+            selectedImage.Source = ImageSource.FromStream(() => selectedImageFile.GetStream());
+        }
     }
 }
