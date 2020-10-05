@@ -14,25 +14,19 @@ namespace testeMOB
         }
         async void Handle_Clicked(object sender, System.EventArgs e)
         {
-            //! adicione o Plugin.Media;
             await CrossMedia.Current.Initialize();
 
-            // Se você quiser tirar uma foto use isso:
-            // if(!CrossMedia.Current.IsTakePhotoSupported || !CrossMedia.Current.IsCameraAvailable)
-            // Se você quiser selecionar da galeria use isso:
             if (!CrossMedia.Current.IsPickPhotoSupported)
             {
                 await DisplayAlert("Sem suporte", "Seu ceular não suporta esta funcionalidade", "Ok");
                 return;
             }
 
-            //! added using Plugin.Media.Abstractions;
-            // Se você quiser tirar uma foto use StoreCameraMediaOptions ao invés de PickMediaOptions
             var mediaOptions = new PickMediaOptions()
             {
                 PhotoSize = PhotoSize.Medium
             };
-            // Se você quiser tirar uma foto use TakePhotoAsync ao invés de PickPhotoAsync
+        
             var selectedImageFile = await CrossMedia.Current.PickPhotoAsync(mediaOptions);
 
             if (selectedImage == null)
@@ -44,3 +38,7 @@ namespace testeMOB
         }
     }
 }
+
+//http://www.macoratti.net/20/03/xf_lvmvvm1.htm
+//https://github.com/poz1/Poz1.ImageGallery/blob/master/Poz1.ImageGallery/Poz1.ImageGallery/MainPage.xaml
+//https://docs.microsoft.com/pt-br/xamarin/xamarin-forms/user-interface/layouts/custom

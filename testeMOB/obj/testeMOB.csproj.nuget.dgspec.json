@@ -64,6 +64,10 @@
               "target": "Package",
               "version": "[4.8.0.1451, )"
             },
+            "Xamarin.Forms.CarouselView": {
+              "target": "Package",
+              "version": "[2.3.0-pre2, )"
+            },
             "Xamarin.Forms.OpenWhatsApp": {
               "target": "Package",
               "version": "[1.0.1, )"
