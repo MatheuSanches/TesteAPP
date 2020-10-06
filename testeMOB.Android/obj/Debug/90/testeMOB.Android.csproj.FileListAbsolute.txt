@@ -607,7 +607,6 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\6E39
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\A2F5BE9AD403496B.stamp
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\E6B1D153C1035453.stamp
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\02E70223D5EF7C9F.stamp
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\8A6FDCB1FEEF46EF.stamp
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\26D0C22E77469A1D.flata
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\EA1C73754946BD55.flata
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\9E983BDA66217DE4.flata
@@ -618,7 +617,6 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\6E39
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\A2F5BE9AD403496B.flata
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\E6B1D153C1035453.flata
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\02E70223D5EF7C9F.flata
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\8A6FDCB1FEEF46EF.flata
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\compiled.flata
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\R.txt
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\R.cs.flag
@@ -762,7 +760,6 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\as
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\Xamarin.Android.Support.ViewPager.dll
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\Xamarin.Essentials.dll
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\Xamarin.Essentials.pdb
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\Xamarin.Forms.CarouselView.dll
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\Xamarin.Forms.Core.dll
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\Xamarin.Forms.OpenWhatsApp.dll
@@ -993,13 +990,6 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\sr
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc64473fc4d64edfc7b7\MainActivity.java
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc64473fc4d64edfc7b7\SplashActivity.java
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc646957603ea1820544\MediaPickerActivity.java
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\CarouselViewRenderer.java
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\CarouselViewRenderer_OnScrollListener.java
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\CarouselViewRenderer_PositionUpdater.java
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\ItemViewAdapter.java
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\ItemViewAdapter_CarouselViewHolder.java
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\PhysicalLayoutManager.java
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\PhysicalLayoutManager_SeekAndSnapScroller.java
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc64720bb2db43a66fe9\ButtonRenderer.java
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc64720bb2db43a66fe9\CarouselPageRenderer.java
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\src\crc64720bb2db43a66fe9\FormsFragmentPagerAdapter_1.java
@@ -1117,3 +1107,5 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\stamp\_Con
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\CE2BB378EBEF5BD7.stamp
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\CE2BB378EBEF5BD7.flata

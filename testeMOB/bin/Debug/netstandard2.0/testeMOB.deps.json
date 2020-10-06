@@ -14,7 +14,6 @@
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451",
-          "Xamarin.Forms.CarouselView": "2.3.0-pre2",
           "Xamarin.Forms.OpenWhatsApp": "1.0.1",
           "sqlite-net-pcl": "1.7.335"
         },
@@ -161,17 +160,6 @@
           }
         }
       },
-      "Xamarin.Forms.CarouselView/2.3.0-pre2": {
-        "dependencies": {
-          "Xamarin.Forms": "4.8.0.1451"
-        },
-        "runtime": {
-          "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.CarouselView.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Xamarin.Forms.OpenWhatsApp/1.0.1": {
         "dependencies": {
           "Xamarin.Forms": "4.8.0.1451"
@@ -295,13 +283,6 @@
       "sha512": "sha512-3RUzBpcaBxOjufLLqJnuZRGLhzAbVyfe/Pyp0AFY/H1MkCHYxXIRzgB8h6yC9NTs39NLK2SgGiaMbvC4TJ/zFA==",
       "path": "xamarin.forms/4.8.0.1451",
       "hashPath": "xamarin.forms.4.8.0.1451.nupkg.sha512"
-    },
-    "Xamarin.Forms.CarouselView/2.3.0-pre2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-+xxUr80PHBiYkrBQQ4oXYm9Xi9lUSwhVzIeoGuSOc37LkoC83grG3irOpw0tevtfMIzS109QAJ7pNULq6evjgQ==",
-      "path": "xamarin.forms.carouselview/2.3.0-pre2",
-      "hashPath": "xamarin.forms.carouselview.2.3.0-pre2.nupkg.sha512"
     },
     "Xamarin.Forms.OpenWhatsApp/1.0.1": {
       "type": "package",

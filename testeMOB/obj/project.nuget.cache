@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zyxNAzVURqZOph3EP5cOdpx3VrUKHnX1rMKAHxMNGm+YyBfegVjxucpf/pR0yDP9SSFS8oGA2oIxpHmcEyoWGw==",
+  "dgSpecHash": "88ez8Ybw4pYRTUrxaV9IAQDVVO7thXyyL8hVZBm3sO695k3tFaG0u3Nrg9fT9BBChXak9rX4kZpAyigYMptXUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Csystems\\source\\repos\\TesteMOB\\testeMOB\\testeMOB.csproj",
   "expectedPackageFiles": [
@@ -19,19 +19,7 @@
     "C:\\Users\\Csystems\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512",
-    "C:\\Users\\Csystems\\.nuget\\packages\\xamarin.forms.carouselview\\2.3.0-pre2\\xamarin.forms.carouselview.2.3.0-pre2.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\xamarin.forms.openwhatsapp\\1.0.1\\xamarin.forms.openwhatsapp.1.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "O pacote 'Xamarin.Forms.CarouselView 2.3.0-pre2' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
-      "libraryId": "Xamarin.Forms.CarouselView",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.0"
-      ]
-    }
-  ]
+  "logs": []
 }
