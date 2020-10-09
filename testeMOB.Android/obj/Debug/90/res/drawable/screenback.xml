@@ -1,1 +1,0 @@
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item><color android:color="#1c3e81" /></item><item><bitmap android:src="@drawable/solo6" android:scaleType="matrix" android:layout_width="fill_parent" android:layout_height="fill_parent" /></item></layer-list>
