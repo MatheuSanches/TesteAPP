@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="testeMOB.ClientesPage"
+             Title="Clientes">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="solo5.png" Priority="1" Clicked="MenuItem_OnClicked"/>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+
+        <StackLayout Padding="20" Spacing="20" BackgroundColor="#000000">
+
+            <!--<SearchBar Placeholder="Search items..."
+           CancelButtonColor="#1c3e81"
+           PlaceholderColor="LightGray"
+           TextColor="Gray"
+           HorizontalTextAlignment="Center"/>-->
+
+            <Image Source="solo3.png" HeightRequest="70" VerticalOptions="EndAndExpand"/>
+            <Label Text="Nenhum cliente deve ficar desprotegido, o cavaleiro sanguinário Igris, está aqui para cuidar disso!!" TextColor="#81a2d4"/>
+            <Entry x:Name="NomeCliente" Placeholder="Nome" PlaceholderColor="#9fb3d1" 
+                            BackgroundColor="#000000" TextColor="#81a2d4"/>
+
+            <Entry x:Name="EmailCliente" Placeholder="Email" Keyboard="Email" PlaceholderColor="#9fb3d1" 
+                            BackgroundColor="#000000" TextColor="#81a2d4"/>
+
+            <Entry x:Name="UsuarioCliente" Placeholder="Usuario" PlaceholderColor="#9fb3d1" 
+                            BackgroundColor="#000000" TextColor="#81a2d4"/>
+
+            <Entry x:Name="SenhaCliente" Placeholder="Senha" PlaceholderColor="#9fb3d1" 
+                            BackgroundColor="#000000" TextColor="#81a2d4"/>
+
+            <Button x:Name="Salvar" Text="Salvar Dados" Clicked="SalvarClicked" TextColor="#000000" BackgroundColor="#81a2d4"/>
+
+            <ListView x:Name="ListaCliente" BackgroundColor="#000000"  />
+
+        </StackLayout>
+
+    </ScrollView>
+
+</ContentPage>

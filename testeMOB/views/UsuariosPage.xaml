@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="testeMOB.UsuariosPage"
+             Title="Usuários">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="solo5.png" Priority="1" Clicked="MenuItem_OnClicked"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout Padding="20" Spacing="20" BackgroundColor="#000000">
+        <Image Source="solo4.png" HeightRequest="70" VerticalOptions="EndAndExpand"/>
+        <Label Text="Usuários como Fang são mais fortes se segurarem um orbe da avareza!!" TextColor="#81a2d4"/>
+        <AbsoluteLayout Margin="3,3,3,3">
+            <ScrollView>
+                <FlexLayout IsVisible="True" JustifyContent="SpaceEvenly" Direction="Column" AlignItems="Start" >
+                    <ListView x:Name="listUser"
+                                  HasUnevenRows="True"
+                                  IsVisible="True">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Margin="2,2,2,2">
+                                        <Label Text="{Binding Usu}" FontAttributes="Bold" TextColor="#81a2d4" FontSize="16"/>
+                                        <Label Text="{Binding Senha}" FontSize="12" TextColor="#81a2d4"/>
+                                        <Label Text="{Binding Nome}" FontSize="12" TextColor="#81a2d4"/>
+                                        <Label Text="{Binding Email}" FontSize="12" TextColor="#81a2d4"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </FlexLayout>
+            </ScrollView>
+        </AbsoluteLayout>
+    </StackLayout>
+</ContentPage>

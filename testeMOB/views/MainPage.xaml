@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="testeMOB.MainPage"
+             Title="Home">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="solo5.png" Priority="1" Clicked="MenuItem_OnClicked"/>
+    </ContentPage.ToolbarItems>
+    <StackLayout Padding="12" BackgroundColor="#000000">
+        <Label/>
+        <Image Source="kaisel.jpg" 
+               />
+        <Label/>
+        <Label Text="Esse aplicativo é um aplicativo de teste para fins de estudo, criado por Matheus Marquesini, código fonte  postado no github" TextColor="#81a2d4"/>
+        <Label HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Github/MarkMSM: " TextColor="#81a2d4" TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ClickCommand}" 
+                                  CommandParameter="https://github.com/MatheuSanches/TesteAPP" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                    <Span Text="Repositório com código disponível" TextColor="#81a2d4"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+</ContentPage>
