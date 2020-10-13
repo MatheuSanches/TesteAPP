@@ -39,7 +39,9 @@ namespace testeMOB
         {
             try
             {
-                string requestUri = "https://raw.githubusercontent.com/xamarin/docs-archive/master/Images/stock/small/stock.json";
+                string requestUri = "https://github.com/MatheuSanches/TesteAPP/blob/master/Image/stock.json";
+                //https://raw.githubusercontent.com/MatheuSanches/TesteAPP/master/Image/ImageList.json#
+                //"https://raw.githubusercontent.com/MatheuSanches/TesteAPP/master/Images/stock/"
                 string result = await _client.GetStringAsync(requestUri);
                 return JsonConvert.DeserializeObject<ImageList>(result);
             }
