@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using testeMOB.views;
+using testeMOB.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -64,6 +65,13 @@ typeof(Suporte)
                     Icon = "solo5.png",
                     TargetType =
 typeof(ImageWrapLayoutPage)
+                },
+                new MasterPageItem()
+                {
+                    Title = "Galeria",
+                    Icon = "solo6.png",
+                    TargetType =
+typeof(Views.ChatPage)
                 }
             };
             // Configurando o ItemSource fpara o ListView na MainPage.xaml

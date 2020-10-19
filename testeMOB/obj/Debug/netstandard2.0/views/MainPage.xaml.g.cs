@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.views.MainPage.xaml", "views/MainPage.xaml", typeof(global::testeMOB.MainPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.Views.MainPage.xaml", "Views/MainPage.xaml", typeof(global::testeMOB.MainPage))]
 
 namespace testeMOB {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("views\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MainPage.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

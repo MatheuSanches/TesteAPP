@@ -4,6 +4,7 @@ public class MonoPackageManager_Resources {
 		/* We need to ensure that "testeMOB.Android.dll" comes first in this list. */
 		"testeMOB.Android.dll",
 		"FormsViewGroup.dll",
+		"MvvmHelpers.dll",
 		"Newtonsoft.Json.dll",
 		"Plugin.Media.dll",
 		"Rg.Plugins.Popup.dll",

@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.views.ImageWrapLayoutPage.xaml", "views/ImageWrapLayoutPage.xaml", typeof(global::testeMOB.ImageWrapLayoutPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.Views.ImageWrapLayoutPage.xaml", "Views/ImageWrapLayoutPage.xaml", typeof(global::testeMOB.ImageWrapLayoutPage))]
 
 namespace testeMOB {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("views\\ImageWrapLayoutPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\ImageWrapLayoutPage.xaml")]
     public partial class ImageWrapLayoutPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

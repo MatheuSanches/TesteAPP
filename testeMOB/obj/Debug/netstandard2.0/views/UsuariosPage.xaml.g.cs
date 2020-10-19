@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.views.UsuariosPage.xaml", "views/UsuariosPage.xaml", typeof(global::testeMOB.UsuariosPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.Views.UsuariosPage.xaml", "Views/UsuariosPage.xaml", typeof(global::testeMOB.UsuariosPage))]
 
 namespace testeMOB {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("views\\UsuariosPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\UsuariosPage.xaml")]
     public partial class UsuariosPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

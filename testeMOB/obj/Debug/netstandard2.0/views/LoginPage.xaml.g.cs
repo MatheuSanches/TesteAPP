@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.views.LoginPage.xaml", "views/LoginPage.xaml", typeof(global::testeMOB.LoginPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.Views.LoginPage.xaml", "Views/LoginPage.xaml", typeof(global::testeMOB.LoginPage))]
 
 namespace testeMOB {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("views\\LoginPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\LoginPage.xaml")]
     public partial class LoginPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

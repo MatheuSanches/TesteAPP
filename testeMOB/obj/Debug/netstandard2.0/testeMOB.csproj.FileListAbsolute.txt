@@ -26,7 +26,6 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB\bin\Debug\netstandard2.0\testeM
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeMOB.csprojAssemblyReference.cache
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\views\ClientesPage.xaml.g.cs
-C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\views\GalleryPage.xaml.g.cs
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\views\LoginPage.xaml.g.cs
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\views\MainPage.xaml.g.cs
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\views\Menu.xaml.g.cs
@@ -40,5 +39,8 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeM
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\ref\testeMOB.dll
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeMOB.pdb
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\views\ImageWrapLayoutPage.xaml.g.cs
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\CustomCell\TextInViewCell.xaml.g.cs
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\CustomCell\TextOutViewCell.xaml.g.cs
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\Views\ChatPage.xaml.g.cs
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\testeMOB.csproj.CoreCompileInputs.cache
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB\obj\Debug\netstandard2.0\XamlC.stamp

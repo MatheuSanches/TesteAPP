@@ -1110,3 +1110,5 @@ C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\stamp\_Res
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\CE2BB378EBEF5BD7.stamp
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\flata\CE2BB378EBEF5BD7.flata
 C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\MvvmHelpers.dll
+C:\Users\Csystems\source\repos\TesteMOB\testeMOB.Android\obj\Debug\90\android\assets\MvvmHelpers.pdb

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "e09f1u1bQuFpg7TykeDbkVI+oQrkQUTDLvN2vs3BHmn+n8AHGLa+onvLkJfyuxUYnOHAY123mJRURXBb29angA==",
+  "dgSpecHash": "HqfWnngeT8LrRamDkLgp1ujfWjZOrzXp/ptV7L+0vRcmXH/N1/suAh1wrc64vZCJs1S2dbqnvbL/DShMVx8tXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Csystems\\source\\repos\\TesteMOB\\testeMOB.Android\\testeMOB.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Csystems\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Csystems\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\rg.plugins.popup\\2.0.0.5\\rg.plugins.popup.2.0.0.5.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\sqlite-net-pcl\\1.7.335\\sqlite-net-pcl.1.7.335.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.3\\sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
@@ -14,6 +15,7 @@
     "C:\\Users\\Csystems\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Csystems\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Csystems\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.runtime\\1.1.1.3\\xamarin.android.arch.core.runtime.1.1.1.3.nupkg.sha512",

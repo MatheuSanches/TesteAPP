@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.views.RegisterPage.xaml", "views/RegisterPage.xaml", typeof(global::testeMOB.RegisterPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.Views.RegisterPage.xaml", "Views/RegisterPage.xaml", typeof(global::testeMOB.RegisterPage))]
 
 namespace testeMOB {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("views\\RegisterPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\RegisterPage.xaml")]
     public partial class RegisterPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

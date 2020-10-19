@@ -11,6 +11,7 @@ namespace testeMOB
     public partial class ImageWrapLayoutPage : ContentPage
     {
         HttpClient _client;
+
         public ImageWrapLayoutPage()
         {
             InitializeComponent();
@@ -39,9 +40,7 @@ namespace testeMOB
         {
             try
             {
-                string requestUri = "https://github.com/MatheuSanches/TesteAPP/blob/master/Image/stock.json";
-                //https://raw.githubusercontent.com/MatheuSanches/TesteAPP/master/Image/ImageList.json#
-                //"https://raw.githubusercontent.com/MatheuSanches/TesteAPP/master/Images/stock/"
+                string requestUri = "https://raw.githubusercontent.com/MatheuSanches/TesteAPP/master/Image/stock/small/stock.json";
                 string result = await _client.GetStringAsync(requestUri);
                 return JsonConvert.DeserializeObject<ImageList>(result);
             }

@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.views.Suporte.xaml", "views/Suporte.xaml", typeof(global::testeMOB.views.Suporte))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.Views.Suporte.xaml", "Views/Suporte.xaml", typeof(global::testeMOB.views.Suporte))]
 
 namespace testeMOB.views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("views\\Suporte.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Suporte.xaml")]
     public partial class Suporte : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]

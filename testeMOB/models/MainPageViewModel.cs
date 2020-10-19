@@ -1,9 +1,13 @@
-﻿
+﻿using System;
+using System.Globalization;
 using System.Windows.Input;
+using testeMOB.Models;
+using MvvmHelpers;
 using Xamarin.Forms;
-namespace XF_Labelink
+
+namespace testeMOB
 {
-    public class MainPageViewModel
+    public class MainPageViewModel : BaseViewModel
     {
         [System.Obsolete]
         public ICommand ClickCommand => new Command<string>((url) =>

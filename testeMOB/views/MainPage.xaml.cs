@@ -19,7 +19,7 @@ namespace testeMOB
         public MainPage()
         {
             InitializeComponent();
-            this.BindingContext = new XF_Labelink.MainPageViewModel();
+            this.BindingContext = new testeMOB.MainPageViewModel();
         }
 
         private async void MenuItem_OnClicked(object sender, EventArgs e)
@@ -28,18 +28,6 @@ namespace testeMOB
             if (resposta)
             {
                 Application.Current.MainPage = new LoginPage();
-            }
-        }
-
-        private async void Send(object sender, EventArgs e)
-        {
-            try
-            {
-                Chat.Open("+5544999047373", "Você está recebendo uma mensagem via WhatsApp do aplicativo teste");
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Erro", ex.Message, "OK");
             }
         }
     }

@@ -8,12 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.views.Menu.xaml", "views/Menu.xaml", typeof(global::testeMOB.Menu))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("testeMOB.Views.Menu.xaml", "Views/Menu.xaml", typeof(global::testeMOB.Menu))]
 
 namespace testeMOB {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("views\\Menu.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\Menu.xaml")]
     public partial class Menu : global::Xamarin.Forms.MasterDetailPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
